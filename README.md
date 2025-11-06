@@ -1,59 +1,59 @@
-# Abstra
+# 🚀 **Proyecto Frontend Angular 20**
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.8.
+## 📝 **Abstracción del Proyecto**
 
-## Development server
+Este proyecto constituye el **frontend** de una aplicación desarrollada con **Angular CLI v20.3.8**. Se enfoca en la implementación de una interfaz de usuario rica, que incluye un **Dashboard**, y varios **componentes visuales** avanzados como sombras (`box-shadow`), modales, y formularios con validaciones.
 
-To start a local development server, run:
+El desarrollo se llevó a cabo utilizando **TypeScript** para la lógica de la aplicación, **SCSS** para un estilizado modular y avanzado, y **HTML** estructurado.
+
+**Código Fuente (GitHub):** [https://github.com/BrunoLird/Abstra](https://github.com/BrunoLird/Abstra)
+
+**Nota Importante:** Este proyecto es puramente **frontend**. Los datos utilizados para la visualización (ej. listados, detalles de dashboard) son **datos mock (simulados)**, ya que la conexión con un backend real no está implementada en este repositorio.
+
+---
+
+## 🎨 **Diseño y Flujo Visual**
+
+Puedes visualizar el diseño propuesto, la estructura de componentes y el flujo de navegación de la aplicación en el siguiente enlace de Figma:
+
+[**Ver Diseño en Figma**](https://www.figma.com/design/Pv0i1IpBuh0EQ0EbiysNfC/Abstra?node-id=0-1&t=zaXypbbOYMNnz4Vz-1)
+
+---
+
+## ✨ **Características y Componentes Implementados**
+
+El proyecto incluye las siguientes funcionalidades y estructuras:
+
+* **Rutas de Navegación:** Implementación de un sistema de ruteo para gestionar las diferentes vistas de la aplicación.
+* **Dashboard Principal:** Una vista central que presenta un resumen de información clave (utilizando datos mock).
+* **Validaciones en Formulario:** Uso de las capacidades de Angular para asegurar la integridad y el formato de los datos ingresados en los formularios.
+* **Componentes Visuales Avanzados:**
+  * **Modales:** Componentes de diálogo para interacciones clave.
+  * **Sombras y Estilos (SCSS):** Uso de SCSS para lograr un diseño limpio con efectos visuales como sombras en cajas y otros elementos.
+  * **Tipado con TypeScript:** Asegurando la solidez y mantenibilidad del código.
+
+---
+
+## 🔑 **Credenciales de Acceso de Prueba (Mock)**
+
+Dado que las validaciones son frontend y el acceso es simulado, puedes usar las siguientes credenciales de prueba para interactuar con el flujo de usuario:
+
+| Detalle | Valor |
+| :--- | :--- |
+| **Usuario (Email)** | `jhondoe@gmail.com` |
+| **Contraseña** | `password123` |
+
+---
+
+## ⚙️ **Configuración y Ejecución del Proyecto**
+
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión **20.3.8**.
+
+### **Instalación de Dependencias**
+
+Primeramente, debes instalar todas las dependencias del proyecto. Utiliza **`bun`** (el gestor de paquetes principal) o `npm`:
 
 ```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+bun install
+# o
+# npm install
